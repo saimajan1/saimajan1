@@ -1,0 +1,15 @@
+# include <iostream>
+# include <iomanip>  
+using namespace std;
+int main()
+{
+ cout<<"students"<<setw(30)<<"semester"<<endl;
+ cout<<"fazila"<<setw(30)<<"third"<<endl;
+ cout<<"rume"<<setw(30)<<"third"<<endl;
+ cout<<"ismel"<<setw(30)<<"third"<<endl;
+ cout<<"hadi"<<setw(30)<<"third"<<endl;
+ cout<<"rakib"<<setw(30)<<"third"<<endl;
+ cout<<"uzzair"<<setw(30)<<"third"<<endl;
+   
+    return 0;
+}
