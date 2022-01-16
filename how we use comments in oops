@@ -1,0 +1,9 @@
+//comments .cpp
+#include <iostream>   //preprocessor directive
+using namespace std;   //"using" directive
+int main()   // function name "main"
+{    //start function body
+cout<<"***comments are an important part of program***";   // statement
+return 0;   //statement 
+}  // end function body
+
