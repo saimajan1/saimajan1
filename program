@@ -1,0 +1,10 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+     cout<<"hii this is shah saima,\n";
+     cout<<"form third semester,\n ";
+     cout<<"IUST.\n"; 
+     return 0;
+    
+}
