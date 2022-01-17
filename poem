@@ -1,0 +1,9 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"candy is dandy,\n";
+    cout<<"but liquor is quicker";
+    return 0;
+    
+}
