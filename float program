@@ -1,0 +1,14 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    float gallons,cubicfeet;
+    cout<<"enter a number of gallons";
+    cin>>gallons;
+ cubicfeet = gallons/7.481;
+ cout<<"equivalent in cublicfeet"<<cubicfeet<<endl;
+    
+    
+    
+    return 0;
+    
