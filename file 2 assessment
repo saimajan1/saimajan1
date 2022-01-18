@@ -1,0 +1,13 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    int s,m;
+    for(s=1;s<=20;s++)
+    {
+        for(m=1;m<2*s;m++)
+        cout<<"X";
+        cout<<endl;
+        
+    }
+}
