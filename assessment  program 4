@@ -1,0 +1,19 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    int guests=1,cr,i,arr=1;
+    cout<<"no of guests";
+    cin>> guests;
+    
+        cout<<"no of cr";
+        cin>> cr;
+        for(i=0;i<cr;i++)
+        {
+            arr=arr*(guests-i);
+            
+        }
+        cout<<"the no of possible arrangements are "<<arr;
+        return 0;
+        
+    } 
