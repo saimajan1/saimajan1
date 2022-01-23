@@ -1,0 +1,29 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    int number,a,sno;
+    float rate, hours, pay, payroll=0;
+    cout<<"Enter the number of employees";
+    cin >> number;
+     cout<<"enter your employee sno";
+     cin>>sno;
+     cout<<"enter your hourly wage rate"<<endl;
+     cin>>rate;
+    cout<<"enter the number of hours your have worked this week "<<endl;
+     cin>>hours;
+for(a=1;a<number+1;a++)
+    
+if(hours>40)
+{
+    pay=(hours-40)*1.5+40*rate;
+    
+}
+else
+pay=pay-((3.625/100)*pay);
+payroll= payroll +pay;
+cout<<"the total payroll is "<<payroll <<endl;
+cout<<"The average amount payroll//(a-1)"<<endl;
+
+return 0;
+}
