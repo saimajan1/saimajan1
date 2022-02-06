@@ -1,0 +1,14 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    float cel, fa;//calsius and fahrenheit
+    
+   cout<<"temperature in fahrenheit";
+   cin>>fa;
+    cout<<"enter temperature in degree celsius";
+    cin>> cel;
+    fa=(cel*9/5)+32;
+    return 0;
+    
+}
