@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    float clesius =0, fahrenheit=0;
+    cout<<"enter the temperature in fahrenheit";
+    cin >>fahrenheit;
+    
+     cout<<"enter the temperature in clesius";
+    cin >>clesius;
+    
+    //fahrenheit to clesius conversiom formullah
+    
+    clesius=(fahrenheit-32)*9/5;
+    return 0;
+    
+}
