@@ -1,0 +1,15 @@
+# include<iostream>
+
+# include <iomanip>
+using namespace std;
+int main()
+{
+    long pop1=2425785;
+
+    cout<<setfill('.')<<setw(8)
+ 
+  <<setw(8)<<"portcity"
+  <<setw(12)<<pop1<<endl;
+
+  return 0;
+}
