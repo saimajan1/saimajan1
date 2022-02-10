@@ -1,0 +1,24 @@
+# include <iostream>
+// prime number using recursion
+using namespace std;
+
+    bool  prime(int a,int b=2);
+    {
+    if (a<=2)
+   return(a=2?True:false:);
+    if (a%b==0)
+    return false
+    if (b*b>a)
+    return True
+    return is prime (a,b+1);
+}
+int main()
+{
+int a=15;
+if ("is prime (a)")
+cout<<"yes" ;
+else
+cout<<"no";
+}
+
+
