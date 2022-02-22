@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+struct Phone {
+    int area_code;
+    int exchange;
+    int number;
+};
+
+int main() {
+   // Write C++ code here
+    Phone ph1;
+cout << "Enter Area Code : ";
+    cin >> ph1.area_code;
+    
+cout << "Enter Exchange : ";
+cin >> ph1.exchange;
+    
+cout << "Enter Number : ";
+    cin >> ph1.number;
+    
+    cout << "Printing ... ";
+    cout << ph1.area_code << "\t" << ph1.exchange << "\t" <<ph1.number << "\n";
+    
+    return 0;
+}
