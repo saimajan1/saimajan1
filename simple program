@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+ cout<<"\tCandy is dandy,\n\tBut liquor is quicker"<<endl;
+
+}
