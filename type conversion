@@ -1,0 +1,10 @@
+# include <iostream>
+using namespace std;
+int main()
+{
+    int count=20;
+    float weigth=40.90F;
+    double totalweight=count*weigth;
+    cout<<"total weight";
+    return 0;
+}
