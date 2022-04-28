@@ -1,0 +1,7 @@
+# include <iostream> /*preprocessor directive*/
+using namespace std;/*using directive*/
+int main() /*function name "main"*/
+{ /* body start*/
+cout<<"first      program in this chapter ";  /*statement*/
+return 0; /*statement*/
+}/*end body*/
