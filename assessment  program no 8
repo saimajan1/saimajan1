@@ -1,0 +1,12 @@
+# include <iostream>
+# include <iomanip>
+using namespace std;
+int main()
+{
+    long pop =2423567;
+    
+    //cout<<setw(8)<<"location"<<setfill('.')<<setw(12)<<"population"<<endl;
+     cout<<setw(8)<<"portcity "<<setfill('.')<<setw(12)<<"pop"<<endl;
+    return 0;
+    
+}
