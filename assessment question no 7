@@ -1,0 +1,13 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	float cel, fah;
+	cout << "Enter temperatur in Celcius: ";
+	cin >> cel;
+	fah = (cel * 9 / 5) + 32;
+	cout << cel << "C is equivalent to " << fah << "F" << endl;
+	return 0;
+}
