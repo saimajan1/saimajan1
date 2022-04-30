@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+class pt
+{
+  public:
+    int id_pt; //identity  of parent 
+};
+ 
+class Ch : public pt//ch= child
+{
+  public:
+    int id_ch;
+};
+ 
+      int main()             // main function
+{
+    Ch obj1;
+    obj1.id_ch = 7;
+    obj1.id_pt = 91;
+    cout << "Child id is: " <<  obj1.id_ch << '\n';
+    cout << "Parent id is: " <<  obj1.id_pt<< '\n';
+         
+    return 0;
+}
