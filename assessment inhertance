@@ -1,0 +1,23 @@
+# include <iostream>
+using namespace std;
+class animal
+{
+    public:
+    int eat();
+    int sleep();
+    cout<<"i can eat"<<endl;
+    cout<<"i can sleep"<<endl;};
+class dg:public animal
+{
+    public: 
+    int bark();
+    cout<<"i can bark"<<endl;
+    
+};
+int main()
+dg f;
+cout<<f.eat();
+cout<<f.sleep();
+cout<<f.bark();
+return 0;
+}
