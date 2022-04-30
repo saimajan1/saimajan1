@@ -1,0 +1,23 @@
+# include <iostream>
+using namespace std;
+class student{ 
+public:
+student (){
+    cout<<"i am a student"<<endl;
+}
+string name ="saima";
+};
+class cstudent :public student {
+    public:
+    cstudent (){
+        cout<<"i am c++ student "<<endl;
+    }
+        string collegename="IUSt";
+        };
+        int main()
+        {
+            cstudent obj;
+            cout<<"my name is "<<obj.name<<endl;
+            cout<<"i study at "<<obj.collegename<<endl;
+            return 0;
+        }
