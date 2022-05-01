@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+//#include <conio> 
+int main()
+{
+char ch;
+unsigned long total = 0; 
+cout << "\nEnter a number: ";
+while( (ch=getche()) !='/r') //quit on Enter
+total = total*10 + ch-'0'; 
+cout << "Number is: " << total << endl;
+return 0;
+}
